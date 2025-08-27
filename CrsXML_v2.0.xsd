@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSpy v2012 rel. 2 sp1 (x64) (http://www.altova.com) by Sebastien Michon (OECD) -->
 <xsd:schema xmlns:crs="urn:oecd:ties:crs:v2" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ftc="urn:oecd:ties:fatca:v1" xmlns:cfc="urn:oecd:ties:commontypesfatcacrs:v2" xmlns:stf="urn:oecd:ties:crsstf:v5" xmlns:iso="urn:oecd:ties:isocrstypes:v1" targetNamespace="urn:oecd:ties:crs:v2" elementFormDefault="qualified" attributeFormDefault="unqualified" version="2.0">
-	<xsd:import namespace="urn:oecd:ties:isocrstypes:v1" schemaLocation="isocrstypes_v1.1.xsd"/>
-	<xsd:import namespace="urn:oecd:ties:crsstf:v5" schemaLocation="oecdcrstypes_v5.0.xsd"/>
-	<xsd:import namespace="urn:oecd:ties:commontypesfatcacrs:v2" schemaLocation="CommonTypesFatcaCrs_v2.0.xsd"/>
-	<xsd:import namespace="urn:oecd:ties:fatca:v1" schemaLocation="FatcaTypes_v1.2.xsd"/>
+	<xsd:import namespace="urn:oecd:ties:isocrstypes:v1" schemaLocation="https://raw.githubusercontent.com/mconchas2609/CRS-Schema-v2.0/refs/heads/main/isocrstypes_v1.1.xsd"/>
+	<xsd:import namespace="urn:oecd:ties:crsstf:v5" schemaLocation="https://raw.githubusercontent.com/mconchas2609/CRS-Schema-v2.0/refs/heads/main/oecdcrstypes_v5.0.xsd"/>
+	<xsd:import namespace="urn:oecd:ties:commontypesfatcacrs:v2" schemaLocation="https://raw.githubusercontent.com/mconchas2609/CRS-Schema-v2.0/refs/heads/main/CommonTypesFatcaCrs_v2.0.xsd"/>
+	<xsd:import namespace="urn:oecd:ties:fatca:v1" schemaLocation="https://raw.githubusercontent.com/mconchas2609/CRS-Schema-v2.0/refs/heads/main/FatcaTypes_v1.2.xsd"/>
 	<!--+++++++++++++++++++++++  Reusable Simple types ++++++++++++++++++++++++++++++++++++++ -->
 	<!-- Message type definitions -->
 	<xsd:simpleType name="MessageType_EnumType">
